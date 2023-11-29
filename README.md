@@ -10,6 +10,8 @@ Copy to `../RAVDESS/<project-folder>`
 
 `poetry install`
 
+Select local pyenv in VSCode/editor
+
 ## Requirements
 
 ### Pyenv
@@ -23,6 +25,14 @@ Copy to `../RAVDESS/<project-folder>`
 `brew install xz`
 
 `pyenv install 3.11`
+
+### Poetry
+
+`pip install poetry`
+
+Ensure pyenv is local to project:
+
+`poetry config virtualenvs.in-project true`
 
 ### llvm@14
 
